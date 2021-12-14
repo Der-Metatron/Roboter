@@ -26,5 +26,10 @@ let robo = {
         if(robo.heading == "links") {
            robo.heading = "oben"; 
         }
-    
-    }
+        if(robo.heading == "rechts") {
+           robo.heading = "unten"; 
+        }
+        if(robo.heading == "oben") {
+           robo.heading = "links"; 
+        }
+        }
