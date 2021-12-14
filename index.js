@@ -12,10 +12,10 @@ let robo = {
        robo.x = robo.x +1;
     }
     if(robo.heading == "links") {
-       robo.x == robo.x +1; 
+       robo.x == robo.x -1; 
     }
     if(robo.heading == "oben") {
-       robo.y = robo.y +1; 
+       robo.y = robo.y -1; 
     }
     }
     
