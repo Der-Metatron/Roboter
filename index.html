@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Metatron" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Robot - Eddy</h1>
+
+    <!-- POSITION X -->
+    <span>Position X: </span>
+    <span id="posX">0</span>
+    <br/>
+
+    <!-- POSITION Y -->
+    <span>Position Y: </span>
+    <span id="posY">0</span>
+    <br/>
+
+    <!-- ORIENTIERUNG -->
+    <span>Himmelsrichtung: </span>
+    <span id="heading">EAST</span>
+    <br/>
+
+    <button id="moveButton" onclick="step()">
+        MOVE!
+    </button>
+
+    <button id="rotateButton" onclick="rotate()">
+        ROTATE!
+    </button>
+
+    <!-- JAVASCRIPT VERKNÜPFUNG-->
+    <script src="index.js">  </script>
+</body>
+</html>
